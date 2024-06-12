@@ -9,6 +9,5 @@ router.post('/login',userCtrl.login)
 router.get('/logout',userCtrl.logout)
 router.get('/info',auth,userCtrl.getUser)
 
-GIT 
 
 module.exports = router;
